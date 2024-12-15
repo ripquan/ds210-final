@@ -1,0 +1,9 @@
+[package]
+name = "finalproject"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1"               # For reading CSV/TSV files
+serde = { version = "1.0", features = ["derive"] } # For deserializing records
+petgraph = "0.6"          # For graph data structures and algorithms
